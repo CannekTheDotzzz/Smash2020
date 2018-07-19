@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    font-family:sans-serif;
+}
+h1{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 65px;
+}
+/* tool bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: dodgerblue;
+}
+
+.active {
+    background-color:lightgray;
+}
+
+/*Product page*/
+#product_intro{
+    font-size: 25px;
+    text-align: left;
+    padding-left: 30ex;
+    padding-right: 30ex;
+}
+#product_1{
+    text-align: left;
+    padding-left: 55%;
+    font-size: 30px;
+}
+
+#product_1A{
+    padding-left: 55%;
+    font-size: 25px;
+    text-align: left;
+}
+
+#product_1B{
+    float: left;
+    height: 45ex;
+}
+
+#product_2{
+    text-align: left;
+    font-size: 30px;
+    padding-right: 55%;
+    padding-top: 8ex;
+        
+}
+
+#product_2A{
+    font-size: 25px;
+    text-align: left;
+    padding-right: 55%;
+}
+
+#product_2B{
+    float: right;
+    height: 45ex;
+    padding-top: 5ex;
+}
+
+/*About*/
+.P{
+    padding:1em;
+    margin:1em;
+    font-size: 25px;
+    float:right;
+}
+.leadership{
+    transform: rotate(90deg);
+    border:5px solid dodgerblue;
+    border-radius:20em;
+}
+.leadership1{
+    border:5px solid dodgerblue;
+    border-radius: 20em;
+}
+section{
+    float:left;
+}
+#undrabt{
+    margin-top: 3em;
+}
+#demo{
+    margin-right: 10em;
+}
+#button{
+    float:auto;
+}
+/*Home*/
+#P2{
+	font-size: 25px;
+	text-align: left;
+}
